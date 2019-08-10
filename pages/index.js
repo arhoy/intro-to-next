@@ -1,4 +1,14 @@
-const Index = () => <div>Welcome to the home page</div>
+
+import Layout from '../components/Layout';
+
+const Index = () => (
+    <Layout title =  "Home">
+        <div>
+            <h1>Welcome to the Home page</h1>
+            <p>Fuck you bitch</p>
+        </div>
+    </Layout>
+)
 
 
-export default Index 
+export default Index;
